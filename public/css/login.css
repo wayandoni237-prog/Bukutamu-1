@@ -1,0 +1,66 @@
+/* public/css/login.css */
+
+/* Background Utama Gelap */
+body {
+    background-color: #020611 !important;
+}
+
+/* Card dengan Efek Glow Biru Menyala */
+.dark-card {
+    background-color: #0b1426 !important; /* Biru navy sangat gelap */
+    border-radius: 20px !important;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    
+    /* Efek Glow Identik dengan Desain Register */
+    box-shadow: 0 0 40px rgba(0, 210, 255, 0.25), 
+                0 0 80px rgba(0, 210, 255, 0.15) !important;
+    
+    animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Judul dan Link Warna Cyan */
+.text-info {
+    color: #00d2ff !important;
+    letter-spacing: 1px;
+}
+
+/* Styling Input Field */
+.form-control {
+    background-color: #050b18 !important;
+    border: 1px solid #1a2b4b !important;
+    color: #ffffff !important;
+    padding: 12px 15px !important;
+    border-radius: 10px !important;
+}
+
+.form-control:focus {
+    border-color: #00d2ff !important;
+    box-shadow: 0 0 10px rgba(0, 210, 255, 0.3) !important;
+    outline: none;
+}
+
+.form-control::placeholder {
+    color: #4b5d83 !important;
+}
+
+/* Tombol Login */
+.btn-info {
+    background-color: #00cdf9 !important;
+    border: none !important;
+    padding: 12px !important;
+    border-radius: 10px !important;
+    transition: all 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #00b4db !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0, 205, 249, 0.4) !important;
+}

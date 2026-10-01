@@ -1,0 +1,186 @@
+/*BACKGROUND UTAMA*/
+body.bg-blue {
+    background-color: #020611 !important; /* Hitam kebiruan sangat gelap */
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff;
+}
+
+/* CARD DARK STYLE */
+.dark-card {
+    background: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* HEADER TITLE */
+h2.text-info {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* FORM STYLE */
+.form-control {
+     background-color: #050b18 !important; /* Input lebih gelap dari card */
+    border: 1px solid #1a2b4b !important;
+    color: #ffffff;
+}
+
+.form-control:focus {
+    background-color: #050b18 !important;
+    border-color: #0dcaf0;
+    box-shadow: none;
+    color: #ffffff;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*BUTTON STYLE*/
+.btn-info {
+    background: linear-gradient(45deg, #0dcaf0, #0aa2c0);
+    border: none;
+    transition: 0.3s ease;
+}
+
+.btn-info:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+/*LOGOUT BUTTON*/
+.btn-danger {
+    transition: 0.3s ease;
+}
+
+.btn-danger:hover {
+    transform: scale(1.05);
+}
+
+/* LABEL TEXT */
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+/*RESPONSIVE FIX*/
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+/* Penyesuaian Tabel agar sesuai Foto */
+.custom-table thead th {
+    background-color: rgba(254, 252, 252, 0.2);
+    color: #58a6ff;
+    border-bottom: 2px solid #feffff;
+    padding: 15px 10px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.custom-table tbody td {
+    border-bottom: 1px solid #fbfcfd;
+    padding: 15px 10px;
+}
+
+.custom-table tbody tr:hover {
+    background-color: rgba(88, 166, 255, 0.03) !important;
+}
+
+/* Tombol hapus versi tabel */
+.btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+
+body {
+    background: linear-gradient(135deg, #0b1220, #0f1c2e);
+    color: #e2e8f0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card */
+.dark-card {
+    background: linear-gradient(145deg, #0f1c2e, #14243d);
+    border: 1px solid rgba(0, 140, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 0 25px rgba(0, 140, 255, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+
+.dark-card:hover {
+    box-shadow: 0 0 45px rgba(0, 140, 255, 0.4);
+}
+
+/* Header */
+.card-header {
+    background: rgba(0, 110, 255, 0.15) !important;
+    border-bottom: 1px solid rgba(0, 140, 255, 0.3) !important;
+}
+
+.card-header h5 {
+    color: #60a5fa;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Table */
+.table {
+    margin-bottom: 0;
+}
+
+.table-dark {
+    background-color: transparent !important;
+    color: #e2e8f0;
+}
+
+.table-dark thead {
+    background: rgba(0, 110, 255, 0.15);
+}
+
+.table-dark th {
+    color: #60a5fa;
+    border-bottom: 1px solid rgba(0, 140, 255, 0.3);
+}
+
+.table-dark td {
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Hover row glow */
+.table-dark tbody tr:hover {
+    background: rgba(0, 140, 255, 0.08);
+    transition: 0.2s;
+}
+
+/* Buttons */
+.btn-outline-warning {
+    border-color: #3b82f6 !important;
+    color: #60a5fa !important;
+}
+
+.btn-outline-warning:hover {
+    background: #2563eb !important;
+    color: #fff !important;
+    box-shadow: 0 0 12px #2563eb;
+}
+
+
+/* Text glow */
+.text-white {
+    text-shadow: 0 0 10px rgba(0, 140, 255, 0.6);
+}

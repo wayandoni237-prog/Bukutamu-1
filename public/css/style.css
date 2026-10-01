@@ -1,0 +1,118 @@
+/* ===== Background Utama ===== */
+body {
+    background: linear-gradient(to right, #000000, #0a192f);
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff;
+}
+
+/* Container spacing */
+.container {
+    max-width: 1200px;
+}
+
+/* ===== Card Dark Luxury ===== */
+.dark-card {
+    background: rgba(15, 25, 55, 0.95);
+    border-radius: 18px;
+    border: 1px solid rgba(0, 120, 255, 0.2);
+    box-shadow: 0 0 30px rgba(0, 120, 255, 0.25);
+    transition: 0.3s ease;
+}
+
+.dark-card:hover {
+    box-shadow: 0 0 40px rgba(0, 150, 255, 0.4);
+}
+
+/* ===== Card Header ===== */
+.card-header {
+    background: transparent;
+}
+
+/* ===== Table Styling ===== */
+.table {
+    color: #ffffff;
+}
+
+.table thead th {
+    border-bottom: 1px solid rgba(0, 120, 255, 0.3);
+}
+
+.table tbody tr {
+    transition: 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(0, 120, 255, 0.1);
+}
+
+/* ===== Form Control (Modal) ===== */
+.form-control {
+    background: rgba(5, 15, 35, 0.9);
+    border: 1px solid rgba(0, 120, 255, 0.3);
+    color: #ffffff;
+}
+
+.form-control:focus {
+    background: rgba(10, 20, 50, 0.95);
+    border-color: #0dcaf0;
+    box-shadow: 0 0 10px rgba(13, 202, 240, 0.5);
+    color: #ffffff;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* ===== Label ===== */
+label {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/* ===== Buttons ===== */
+.btn-success {
+    background: linear-gradient(45deg, #003366, #00aaff);
+    border: none;
+    transition: 0.3s ease;
+}
+
+.btn-success:hover {
+    box-shadow: 0 0 15px rgba(0, 170, 255, 0.6);
+    transform: scale(1.05);
+}
+
+.btn-warning {
+    background: linear-gradient(45deg, #664400, #ffaa00);
+    border: none;
+    color: #000;
+}
+
+.btn-warning:hover {
+    box-shadow: 0 0 15px rgba(255, 170, 0, 0.6);
+}
+
+.btn-danger,
+.btn-outline-danger {
+    transition: 0.3s;
+}
+
+.btn-danger:hover,
+.btn-outline-danger:hover {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+}
+
+/* ===== Modal Styling ===== */
+.modal-content {
+    border-radius: 15px;
+    border: 1px solid rgba(0, 120, 255, 0.2);
+    box-shadow: 0 0 25px rgba(0, 120, 255, 0.3);
+}
+
+/* ===== Title ===== */
+h2.text-info {
+    font-weight: bold;
+}
+
+h5.text-white {
+    font-weight: 600;
+}

@@ -1,0 +1,71 @@
+/* Warna Background Utama (Sama persis dengan foto) */
+body {
+    background-color: #020611 !important; /* Hitam kebiruan sangat gelap */
+}
+
+/* Card dengan efek bayangan biru (Glow) */
+.dark-card {
+    background-color: #0b1426 !important; /* Warna kotak navy gelap */
+    border-radius: 20px !important;
+    padding: 10px;
+    
+    /* Efek Glow Biru 100% Persis Foto */
+    box-shadow: 0 0 40px rgba(0, 210, 255, 0.2), 
+                0 0 80px rgba(0, 210, 255, 0.1) !important;
+    
+    /* Animasi Halus Saat Muncul */
+    animation: fadeInGlow 0.8s ease-out;
+}
+
+@keyframes fadeInGlow {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Warna Judul Cyan */
+.text-info {
+    color: #00d2ff !important;
+    letter-spacing: 1px;
+}
+
+/* Styling Input Field (Gaya Dark Mode) */
+.form-control {
+    background-color: #050b18 !important; /* Input lebih gelap dari card */
+    border: 1px solid #1a2b4b !important;
+    color: #ffffff !important;
+    padding: 12px 15px !important;
+    border-radius: 8px !important;
+}
+
+.form-control:focus {
+    background-color: #050b18 !important;
+    border-color: #00d2ff !important;
+    box-shadow: 0 0 10px rgba(0, 210, 255, 0.3) !important;
+    outline: none;
+}
+
+.form-control::placeholder {
+    color: #4b5d83 !important;
+}
+
+/* Tombol Register */
+.btn-info {
+    background-color: #00cdf9 !important;
+    border: none !important;
+    padding: 12px !important;
+    border-radius: 8px !important;
+    transition: all 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #00b4db !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0, 205, 249, 0.4) !important;
+}
+
+/* Menghilangkan panah pada input NIK */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

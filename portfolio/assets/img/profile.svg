@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Foto Profil I Wayan Doni Kusuma Putra">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset=".5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f2937"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <clipPath id="circle"><circle cx="200" cy="200" r="200"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#circle)">
+    <rect width="400" height="400" fill="url(#bg)"/>
+    <circle cx="320" cy="70" r="90" fill="#ffffff" opacity=".10"/>
+    <circle cx="70" cy="330" r="110" fill="#000000" opacity=".10"/>
+
+    <g fill="#ffffff" opacity=".9">
+      <path d="M200 118c34 0 58 24 58 57 0 33-24 57-58 57s-58-24-58-57c0-33 24-57 58-57z"/>
+      <path d="M92 400c0-58 48-102 108-102s108 44 108 102z"/>
+    </g>
+
+    <path d="M160 232h80l-40 52z" fill="url(#shirt)"/>
+    <path d="M92 400c0-58 48-102 108-102s108 44 108 102z" fill="url(#shirt)"/>
+
+    <text x="200" y="316" text-anchor="middle" font-family="Poppins,Segoe UI,sans-serif" font-size="40" font-weight="800" fill="#ffffff" opacity=".92">WD</text>
+  </g>
+</svg>

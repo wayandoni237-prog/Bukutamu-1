@@ -1,0 +1,87 @@
+/* Styling Background Paling Belakang (Halaman Utama) */
+body {
+    background-color: #030712; /* Hitam kebiruan sangat gelap */
+    background-image: 
+        radial-gradient(circle at 50% -20%, #1e293b, #030712); /* Efek cahaya redup dari atas */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Container Form */
+form {
+    background-color: #0f172a; /* Biru gelap Navy */
+    padding: 2.5rem;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 450px;
+    border: 1px solid rgba(59, 130, 246, 0.2); /* Border biru transparan tipis */
+    
+    /* Bayangan Biru Mewah (Outer Glow) */
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 
+                0 0 20px rgba(37, 99, 235, 0.2); 
+    
+    transition: transform 0.3s ease;
+}
+
+form:hover {
+    transform: translateY(-5px); /* Efek melayang sedikit saat di-hover */
+    box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6), 
+                0 0 30px rgba(37, 99, 235, 0.3);
+}
+
+/* Label */
+label {
+    color: #3b82f6; /* Warna biru cerah untuk label */
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.8rem;
+    display: block;
+}
+
+/* Input/Textarea */
+.form-control {
+    background-color: #1e293b !important;
+    border: 1px solid #334155 !important;
+    color: #f8fafc !important;
+    border-radius: 12px;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Focus State dengan Glow Biru Kuat */
+.form-control:focus {
+    background-color: #0f172a !important;
+    border-color: #3b82f6 !important;
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15), 
+                0 0 20px rgba(59, 130, 246, 0.4);
+}
+
+/* Tombol Update */
+.btn-primary {
+    background: linear-gradient(135deg, #1d4ed8 0%, #3b82f6 100%);
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 12px;
+    font-weight: 800;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.4);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    filter: brightness(1.1);
+    box-shadow: 0 15px 25px -5px rgba(37, 99, 235, 0.6);
+    letter-spacing: 2px; /* Efek estetik saat hover */
+}
